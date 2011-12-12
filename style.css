@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#apDiv1 {
+	position:absolute;
+	width:150px;
+	height:150px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	width:300px;
+	height:150px;
+	z-index:2;
+	left: 175px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+.error {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FF0000;
+}
+
+h3 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	padding:0px;
+	margin:0px;
+}
+
