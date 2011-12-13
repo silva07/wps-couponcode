@@ -6,10 +6,10 @@ You'll need to login to www.paypal.com to create your hosted buttons.
 
 * Create a buy now button at full price and use that as your default hostedButtonId by assigning it to the $hostedButtonId variable.
 * Set The default full price by assigning it to the $amount variable this should match the price for the button you just created at paypal.com
-* Create additional buttons with discounts assigned through the HTML Variables available at www.paypal.com.  See our screencast on how to apply discounts to buy now button.
-* Add the hostedButtonIds for the discounts below to the array. Also, add the discount amount.  
+* Create additional buttons at www.paypal.com and apply discounts through the HTML Variables.  See our screencast on how to apply discounts with HTML variables.
+* Add the hostedButtonIds for the discount button to the array. Also, add the discount amount.  
 * Note, this example is using a fixed discount amount.
-* If you want to use a percentage discount, update this code $amount = ($amount - $discount);
+* If you want to use a percentage discount, update this code $amount = ($amount - $discount) to $amount = ($amount - ($amount * .$discount));
 
 <notextile>
 <pre>
