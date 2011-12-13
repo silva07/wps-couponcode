@@ -1,11 +1,11 @@
 <?php
 
-$hostedButtonId = "X78J5DEYHC9BC";
-$amount = 50;
+$hostedButtonId = "";
+$amount = 0;
 
 $arr = array(
-"take5" => array("hostedButtonId" => "NJX3GHVCXNZJW", "discount" => "5"),
-"take10" => array("hostedButtonId" => "XQLRGKFGSJBRY", "discount" => "10")
+"take5" => array("hostedButtonId" => "", "discount" => "5"),
+"take10" => array("hostedButtonId" => "", "discount" => "10")
 );
 
 	foreach ($arr as $key => $value) {
@@ -39,7 +39,7 @@ $arr = array(
 <div id="apDiv2">
 	A tie by any other name would still look as sweet.  But a tie at a lower price ...
   	<br><br>
-  <form action="index.php" method="post">
+  <form action="coupon-code.php" method="post">
    	 	<input type="text" name="couponCode"  placeholder="coupon code" >
     	<input type="submit" name="submitCouponCode" value="apply coupon">
     </form>
